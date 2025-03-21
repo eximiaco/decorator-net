@@ -1,0 +1,14 @@
+@Eximia.Decorator_HostAddress = http://localhost:5093
+
+GET {{Eximia.Decorator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{Eximia.Decorator_HostAddress}}
+Accept: application/json
+
+###
+
+PUT {{Eximia.Decorator_HostAddress}}
+Accept: application/json
